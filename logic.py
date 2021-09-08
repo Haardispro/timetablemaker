@@ -1,23 +1,56 @@
-#here is the logic 
-# I don't know how to do it.
-"""
+import os
 import random
+import time 
 
-maths = "maths"
-science = "science"
-ss = "ss"
-english = "english"
-hindi = "hindi"
-computer = "computer"
-sports = "sports"
-
-tt = [maths, science, ss, english, hindi, computer, sports]
-for i in range(9):
-    s = random.choice(tt)
-    print(s)
-"""
-#number of periods
-periods = int(input("Enter the number of periods"))
+#os.system("figlet timetable maker")
+print("""
+     _   _                _        _     _                        _             
+    | |_(_)_ __ ___   ___| |_ __ _| |__ | | ___   _ __ ___   __ _| | _____ _ __ 
+    | __| | '_ ` _ \ / _ \ __/ _` | '_ \| |/ _ \ | '_ ` _ \ / _` | |/ / _ \ '__|
+    | |_| | | | | | |  __/ || (_| | |_) | |  __/ | | | | | | (_| |   <  __/ |   
+     \__|_|_| |_| |_|\___|\__\__,_|_.__/|_|\___| |_| |_| |_|\__,_|_|\_\___|_|
+""")
+ran = []
+inst = input("Enter the name of your institution: ")
+periods = int(input("Enter the number of periods: "))
 for i in range(periods):
-    user_input = input("Enter a period:")
+    print("Enter period ", i+1)
+    x = input(":")
+    ran.append(x)
+days = int(input("Enter the number of working days: "))
+print("Making the timetable" )
+dot = "."
+for i in range(4):
+    time.sleep(0.5)
+    print(dot)
+    dot = dot + "."
+
+print("Timetable for {} ->".format(inst))
+for i in range(periods):
+    #print(ran[i])
+    print(random.choice(ran))
+#Periods
+"""
+periods = ["maths", "physics", "chemistry", "biology", "hindi", "english", "computer", "sports"]
+#print(periods[1])
+
+for i in range(8):
+    #print(periods[i])
+    x = random.choice(periods)
+    print(x)
+"""
+"""
+per = 45*8
+time = 14.5 - 8.0
+print(per/time)
+"""
+#time 
+#8:00 to 14:30
+#each period 45 min
+
+#weekdays
+#days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+#on Saturday only 4 periods
+
+
 
