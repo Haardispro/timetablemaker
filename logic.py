@@ -29,8 +29,8 @@ print("Timetable for {} ->".format(inst))
 print(ran)
 
 
-x = random.randint(0, periods-1)
-y = random.randint(0, periods-1)
+x = random.randint(0, periods)
+y = random.randint(0, periods)
 
 while x != y:
     for i in range(periods):
