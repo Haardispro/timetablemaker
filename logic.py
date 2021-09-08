@@ -26,8 +26,18 @@ for i in range(4):
     dot = dot + "."
 
 print("Timetable for {} ->".format(inst))
-for i in range(periods):
-    print(ran)
+print(ran)
+
+
+x = random.randint(0, periods-1)
+y = random.randint(0, periods-1)
+
+while x != y:
+    for i in range(periods):
+        ran.insert(x, ran.pop(y))
+        print(ran)
+    break
+#MyList.insert(index_to_insert,MyList.pop(index_to_remove))
 """
 for i in range(periods):
     print(ran[i])
