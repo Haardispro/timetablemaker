@@ -2,7 +2,14 @@ import os
 import random
 import time 
 
-os.system("figlet timetable maker")
+#os.system("figlet timetable maker")
+print("""
+     _   _                _        _     _                        _             
+    | |_(_)_ __ ___   ___| |_ __ _| |__ | | ___   _ __ ___   __ _| | _____ _ __ 
+    | __| | '_ ` _ \ / _ \ __/ _` | '_ \| |/ _ \ | '_ ` _ \ / _` | |/ / _ \ '__|
+    | |_| | | | | | |  __/ || (_| | |_) | |  __/ | | | | | | (_| |   <  __/ |   
+     \__|_|_| |_| |_|\___|\__\__,_|_.__/|_|\___| |_| |_| |_|\__,_|_|\_\___|_|
+""")
 ran = []
 inst = input("Enter the name of your institution: ")
 periods = int(input("Enter the number of periods: "))
