@@ -5,7 +5,7 @@ import time
 #os.system("figlet timetable maker")
 print("""
      _   _                _        _     _                        _             
-    | |_(_)_ __ ___   ___| |_ __ _| |__ | | ___   _ __ ___   __ _| | _____ _ __ 
+    | |_(_)_ __ ___   ___| |_ __ _| |__ | | ___   _ __ ___   __ _| | _____ _ __ TM
     | __| | '_ ` _ \ / _ \ __/ _` | '_ \| |/ _ \ | '_ ` _ \ / _` | |/ / _ \ '__|
     | |_| | | | | | |  __/ || (_| | |_) | |  __/ | | | | | | (_| |   <  __/ |   
      \__|_|_| |_| |_|\___|\__\__,_|_.__/|_|\___| |_| |_| |_|\__,_|_|\_\___|_|
@@ -27,9 +27,14 @@ for i in range(4):
 
 print("Timetable for {} ->".format(inst))
 for i in range(periods):
-    #print(ran[i])
-    print(random.choice(ran))
+    print(ran)
+"""
+for i in range(periods):
+    print(ran[i])
+    #print(random.choice(ran))
+"""
 #Periods
+
 """
 periods = ["maths", "physics", "chemistry", "biology", "hindi", "english", "computer", "sports"]
 #print(periods[1])
