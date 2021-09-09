@@ -26,7 +26,7 @@ print("\n")
 print(f"Timetable for {Info} ->")
 for j in range(days):
     j=j+1
-    daysList= ["Monday   ","Tuesday  ","Wednesday","Thursday ","Friday  ","Saturday","Sunday  "]
+    daysList= ["Monday   ","Tuesday  ","Wednesday ","Thursday ","Friday  ","Saturday","Sunday  "]
     random.shuffle(ran)
     print(f"{daysList[j-1]} : {ran}")
     
