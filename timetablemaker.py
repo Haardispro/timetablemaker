@@ -24,9 +24,9 @@ days = int(input("Enter the number of working days: "))
 print("Making the timetable ")
 dot = "."
 for i in range(3):
-    time.sleep(0.5)
+    time.sleep(0.1)
     print(dot)
-    time.sleep(0.5)
+    time.sleep(0.2)
     dot = dot + "."
 
 print(f"Timetable for {Info} ->")
