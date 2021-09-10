@@ -20,13 +20,19 @@ for i in range(periods):
 
 # Oneday = random.shuffle(ran)
 days = int(input("Enter the number of working days: "))
-print("Making the timetable ... " )
-time.sleep(0.3)
-print("\n")
+
+print("Making the timetable ")
+dot = "."
+for i in range(3):
+    time.sleep(0.5)
+    print(dot)
+    time.sleep(0.5)
+    dot = dot + "."
+
 print(f"Timetable for {Info} ->")
 for j in range(days):
     j=j+1
-    daysList= ["Monday   ","Tuesday  ","Wednesday ","Thursday ","Friday  ","Saturday","Sunday  "]
+    daysList= ["Monday    ","Tuesday   ","Wednesday ","Thursday  ","Friday    ","Saturday  ","Sunday    "]
     random.shuffle(ran)
     print(f"{daysList[j-1]} : {ran}")
     
