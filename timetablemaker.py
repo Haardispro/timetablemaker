@@ -13,6 +13,7 @@ print("""
 ran = []
 Info = input("Enter the name of your institution: ")
 periods = int(input("Enter the number of subjects in total: "))
+noOfClassesInSchool = int(input("Enter total no. of classes in your institute : "))
 for i in range(periods):
     print(f"Enter subject no.{i+1}")
     x = input(":")
@@ -29,14 +30,18 @@ for i in range(3):
     time.sleep(0.2)
     dot = dot + "."
 
-print(f"Timetable for {Info} ->")
-for j in range(days):
-    j=j+1
-    daysList= ["Monday    ","Tuesday   ","Wednesday ","Thursday  ","Friday    ","Saturday  ","Sunday    "]
-    random.shuffle(ran)
-    print(f"{daysList[j-1]} : {ran}")
-    
-    
+
+
+for z in range(noOfClassesInSchool):
+    print(f"Timetable for Grade {z+1} ->")
+    for j in range(days):
+        j=j+1
+        daysList= ["Monday    ","Tuesday   ","Wednesday ","Thursday  ","Friday    ","Saturday  ","Sunday    "]
+        random.shuffle(ran)
+        #print(ran)
+        
+        print(f"{daysList[j-1]} : {ran}")
+
 
 
 
