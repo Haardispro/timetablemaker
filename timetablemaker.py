@@ -3,7 +3,7 @@ import random
 #main list
 subjects_list = []
 
-#input("What is the name of your institution?:")
+institution = input("What is the name of your institution?:")
 subjects = int(input("Number of Subjects:"))
 
 for i in range(subjects):
@@ -16,7 +16,7 @@ days_periods = int(input("Number of periods in 1 day:"))
 days = int(input("Number of working days:"))
 
 
-#now I have to print ran with the timetable
+print("Timetable for {}".format(institution))
 for i in range(days):
     random.shuffle(subjects_list)
     if days_periods < subjects:
