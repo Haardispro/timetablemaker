@@ -21,10 +21,10 @@ for i in range(days):
     random.shuffle(subjects_list)
     if days_periods < subjects:
         tt = subjects_list[0:days_periods]
-        separator = " | "
+        separator = "   |   "
         print(separator.join(tt))
     elif days_periods == subjects:
-        separator = " | "
+        separator = "   |   "
         print(separator.join(subjects_list))
     elif days_periods > subjects:
         #add an extra subject from the given list
@@ -34,5 +34,5 @@ for i in range(days):
             x = random.randrange(0, subjects)
             y = subjects_list[x]
             subjects_list.append(y)
-        separator = " | "
+        separator = "   |   "
         print(separator.join(subjects_list))
