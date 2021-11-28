@@ -36,7 +36,6 @@ def ask():
     for i in range(x):
         subject = Entry(w, width=20)
         subject.grid(row = i+4, column=0)
-    #return
 
 institution = Entry(w, width=20)
 days_periods = Entry(w, width=20)
