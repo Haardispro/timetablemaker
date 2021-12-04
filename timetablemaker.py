@@ -24,11 +24,11 @@ days = int(input("Enter the number of working days: "))
 
 print("Making the timetable ")
 dot = "."
-for i in range(3):
+for i in range(5):
     time.sleep(0.1)
     print(dot)
     time.sleep(0.2)
-    dot = dot + "."
+    dot = dot + ".."
 
 
 
