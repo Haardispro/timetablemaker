@@ -2,7 +2,14 @@ import random
 
 #main list in which everything is stored
 subjects_list = []
-
+x = """
+ _   _                _        _     _                      _             
+| |_(_)_ __ ___   ___| |_ __ _| |__ | | ___ _ __ ___   __ _| | _____ _ __ 
+| __| | '_ ` _ \ / _ \ __/ _` | '_ \| |/ _ \ '_ ` _ \ / _` | |/ / _ \ '__|
+| |_| | | | | | |  __/ || (_| | |_) | |  __/ | | | | | (_| |   <  __/ |   
+ \__|_|_| |_| |_|\___|\__\__,_|_.__/|_|\___|_| |_| |_|\__,_|_|\_\___|_|   
+"""
+print(x)
 #Basic Inputs
 institution = input("What is the name of your institution?:")
 subjects = int(input("Number of Subjects:"))
