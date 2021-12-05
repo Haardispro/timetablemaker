@@ -7,6 +7,11 @@ w.geometry("800x600")
 #Main list
 subjects_list = []
 
+
+#This is not gud 
+#That's why it is in a function nub
+#I have not run it anywhere 
+#If you have solution then push 
 def timetable():
     dyget = int(days.get())
     dpget = int(days_periods.get())
