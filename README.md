@@ -30,8 +30,10 @@ python3 timetablemaker.py
 
 - [ ] Make GUI program
 
-
+![](/home/haard/Pictures/Screenshot%20from%202022-01-17%2008-42-40.png)
 
 Please contribute. 
+
+
 
  
