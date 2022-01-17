@@ -1,15 +1,37 @@
-# Timetable
+# Timetable Maker
 
-> Create personalized scheduled timetables in just few clicks
-
-> Easy to use and simple interface(cause we dont know how to make it fancy xd)
-
-> Create timetable for the whole institute
-
-> Thank you
+**This is a cli timetable maker**
 
 
 
+<u>To get started:</u>
 
-> Next feature - Classes dont clash ( May take time )
-> Status - In development
+Git clone this repository:
+
+```shell
+git clone https://www.github.com/Haardispro/timetablemaker
+```
+
+cd into this directory:
+
+```shell
+cd timetablemaker
+```
+
+Finally, run the program:
+
+```shell
+python3 timetablemaker.py
+```
+
+#### Things left to do:
+
+- [x] Make CLI program
+
+- [ ] Make GUI program
+
+
+
+Please contribute. 
+
+ 
